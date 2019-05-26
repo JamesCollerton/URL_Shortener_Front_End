@@ -1,23 +1,17 @@
 {
-  "name": "url_shortener_front_end",
-  "version": "1.0.0",
-  "description": "The front end Node and React app for the URL Shortener",
-  "main": "app.js",
+  "name": "url-shortener-front-end",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node app.js",
-    "test": "test"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JamesCollerton/URL_Shortener_Front_End.git"
-  },
-  "author": "James Collerton",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JamesCollerton/URL_Shortener_Front_End/issues"
-  },
-  "homepage": "https://github.com/JamesCollerton/URL_Shortener_Front_End#readme",
   "dependencies": {
-    "express": "^4.17.0"
+    "aws-sdk": "^2.463.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
